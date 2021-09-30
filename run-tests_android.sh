@@ -14,17 +14,17 @@ export APPIUM_APPFILE=$PWD/application.apk #App file is at current working folde
 
 
 ## Desired capabilities:
-export APPIUM_URL="http://localhost:4723/wd/hub"
+#export APPIUM_URL="http://localhost:4723/wd/hub"
 export APPIUM_DEVICE="Local Device"
 
 ##Headspin Test
-#export APPIUM_URL="https://dev-us-mia-0.headspin.io:7018/v0/86b1f5e8842f49bbbf920da797f2ad15/wd/hub"
+export APPIUM_URL="https://dev-us-mia-0.headspin.io:7018/v0/86b1f5e8842f49bbbf920da797f2ad15/wd/hub"
 
 
 
 
-#export APPIUM_DEVICE="SM-A215U"
-#export  UDID_DETAIL="R9AN70CT3BJ"
+export APPIUM_DEVICE="SM-A215U"
+export  UDID_DETAIL="R9AN70CT3BJ"
 
 ###
 
