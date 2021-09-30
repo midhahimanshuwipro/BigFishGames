@@ -1,0 +1,8 @@
+selenium
+pytest
+pytest-selenium
+virtualenv
+Appium-Python-Client
+altunityrunner==1.6.1
+assertpy
+pytest-html
