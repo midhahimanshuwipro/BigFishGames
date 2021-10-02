@@ -40,7 +40,7 @@ class TestBase(unittest.TestCase):
 
 
         # Headspin data
-        cls.appium_driver = webdriver.Remote('https://dev-us-mia-0.headspin.io:7018/v0/86b1f5e8842f49bbbf920da797f2ad15/wd/hub', cls.desired_caps, strict_ssl= False)
+        cls.appium_driver = webdriver.Remote('https://dev-us-mia-0.headspin.io:7018/v0/86b1f5e8842f49bbbf920da797f2ad15/wd/hub', cls.desired_caps)
 ####################
         print("Appium driver started")
         cls.setup_port_forwarding()
